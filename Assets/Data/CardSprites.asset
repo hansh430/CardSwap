@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac23bd23cc8cde44b65961b42b49143, type: 3}
+  m_Name: CardSprites
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - cardId: C2
+    sprite: {fileID: 21300000, guid: 0224c3ed374cfae4f9be13922fb5ae7b, type: 3}
+  - cardId: C3
+    sprite: {fileID: 21300000, guid: 06e852eb4475a8d45aeb926ac6a04939, type: 3}
+  - cardId: C4
+    sprite: {fileID: 21300000, guid: 702ec3893ad277f46a20aef3a9b31f3a, type: 3}
+  - cardId: C5
+    sprite: {fileID: 21300000, guid: af3fcf144d20cff41aace9afe6da571d, type: 3}
+  - cardId: C6
+    sprite: {fileID: 21300000, guid: a3bc291b5535fef4c842cf093c93db76, type: 3}
+  - cardId: C7
+    sprite: {fileID: 21300000, guid: 8db65a33a10d4b042a637454e4e4829d, type: 3}
+  - cardId: C8
+    sprite: {fileID: 21300000, guid: 3317f5f1018d85044ad6701fb94f273b, type: 3}
+  - cardId: C9
+    sprite: {fileID: 21300000, guid: 5c24f878ff4b6b948aae370a1d2d1522, type: 3}
+  - cardId: C10
+    sprite: {fileID: 21300000, guid: 8b0d63a8a7af7f74c8263e67ce53ae2e, type: 3}
+  - cardId: CA
+    sprite: {fileID: 21300000, guid: a8ffcc84d33c59549b351ad02c2ca21a, type: 3}
+  - cardId: CJ
+    sprite: {fileID: 21300000, guid: 5a3544912e376134a9cf076a6f0a8eba, type: 3}
+  - cardId: CK
+    sprite: {fileID: 21300000, guid: 96035628bafabf947b54ff0f25cfd8ea, type: 3}
+  - cardId: CQ
+    sprite: {fileID: 21300000, guid: f79c57d590f13b54a84af74c4fe94d7b, type: 3}
+  - cardId: D2
+    sprite: {fileID: 21300000, guid: 20a8a3c97429a7a4d80705e5c082fc80, type: 3}
+  - cardId: D3
+    sprite: {fileID: 21300000, guid: c393e32c81655dd4d9536e163d06a3b1, type: 3}
+  - cardId: D4
+    sprite: {fileID: 21300000, guid: 075364e8c73854344b7edf100fd4eb08, type: 3}
+  - cardId: D5
+    sprite: {fileID: 21300000, guid: e8a536c5df03ca5418b1a911e04bf899, type: 3}
+  - cardId: D6
+    sprite: {fileID: 21300000, guid: 9d4feea63de7d9a44873b288cdde6fec, type: 3}
+  - cardId: D7
+    sprite: {fileID: 21300000, guid: ea83a10ef86eda543ae3c1f5c6825bfa, type: 3}
+  - cardId: D8
+    sprite: {fileID: 21300000, guid: 1f7889a52f8f03044ba1c26e57e00c97, type: 3}
+  - cardId: D9
+    sprite: {fileID: 21300000, guid: c003bad0f2834ea40a43951e4e7179da, type: 3}
+  - cardId: D10
+    sprite: {fileID: 21300000, guid: f7d4d91f72fa5ba4da66ebd34cf536ad, type: 3}
+  - cardId: DA
+    sprite: {fileID: 21300000, guid: 935f31503a2802d47a95cff3980a35ed, type: 3}
+  - cardId: DJ
+    sprite: {fileID: 21300000, guid: 049b30ccbefd7d7458ea8b5a5168db0d, type: 3}
+  - cardId: DK
+    sprite: {fileID: 21300000, guid: aac5ac4022c51de428dfcca7e1b8594a, type: 3}
+  - cardId: DQ
+    sprite: {fileID: 21300000, guid: ec1e95f84c2e69a4bb72bdd8605ed2da, type: 3}
+  - cardId: H2
+    sprite: {fileID: 21300000, guid: c1ceee27633df90468ddba79ad86df74, type: 3}
+  - cardId: H3
+    sprite: {fileID: 21300000, guid: 9693a69904983ca4587878a808c02c81, type: 3}
+  - cardId: H4
+    sprite: {fileID: 21300000, guid: 471a283c5dec55a4ab5153ad1db07e4f, type: 3}
+  - cardId: H5
+    sprite: {fileID: 21300000, guid: ee7fe7c08d1659c48a210fc984bf78ae, type: 3}
+  - cardId: H6
+    sprite: {fileID: 21300000, guid: fd863b95e80969b44806c99e2c0a791d, type: 3}
+  - cardId: H7
+    sprite: {fileID: 21300000, guid: 7eb51d5583d0e644ebd41787c611672e, type: 3}
+  - cardId: H8
+    sprite: {fileID: 21300000, guid: 9849500b35dd79f4890c2a5c9bde743e, type: 3}
+  - cardId: H9
+    sprite: {fileID: 21300000, guid: 5272d69f5a3bcb748b53cc14554a05a9, type: 3}
+  - cardId: H10
+    sprite: {fileID: 21300000, guid: 4d59b2e425db95a47bed38cbbfcfd625, type: 3}
+  - cardId: HA
+    sprite: {fileID: 21300000, guid: 74feaac0d1c66e947b61fa7ced0236e3, type: 3}
+  - cardId: HJ
+    sprite: {fileID: 21300000, guid: 78b7b3c92eb4e784da67c583c7d1684d, type: 3}
+  - cardId: HK
+    sprite: {fileID: 21300000, guid: 88d31c1d9ab813a4ab3578d036d3ca6b, type: 3}
+  - cardId: HQ
+    sprite: {fileID: 21300000, guid: 0725650d764217646909b8b1d7a22318, type: 3}
+  - cardId: S2
+    sprite: {fileID: 21300000, guid: c1f417c40f615d240b35895d9702f427, type: 3}
+  - cardId: S3
+    sprite: {fileID: 21300000, guid: 8941ee2b3de11f34dbf98c444dbbb374, type: 3}
+  - cardId: S4
+    sprite: {fileID: 21300000, guid: de074cf7b78aae04994ebb0cef7bcead, type: 3}
+  - cardId: S5
+    sprite: {fileID: 21300000, guid: ea3af44d171056640bd99287cd322fc6, type: 3}
+  - cardId: S6
+    sprite: {fileID: 21300000, guid: fd01f7d1dcf3b3944a8bcc1c9599f6c3, type: 3}
+  - cardId: S7
+    sprite: {fileID: 21300000, guid: e93e4c1c885ac804fb8117d3fe0002e0, type: 3}
+  - cardId: S8
+    sprite: {fileID: 21300000, guid: c7520a116dbccf54ab2dc696794012b1, type: 3}
+  - cardId: S9
+    sprite: {fileID: 21300000, guid: 826fe736c70ac6840b89db907537fd82, type: 3}
+  - cardId: S10
+    sprite: {fileID: 21300000, guid: 0b3ae23cba152de4c9422678597549a6, type: 3}
+  - cardId: SA
+    sprite: {fileID: 21300000, guid: b260153ac2c04b94c848fb752b20d5ec, type: 3}
+  - cardId: SJ
+    sprite: {fileID: 21300000, guid: 5e667df47ee989c44b34e2216d67b5f8, type: 3}
+  - cardId: SK
+    sprite: {fileID: 21300000, guid: d3f995996d5f0b54ab6bf5bb3e2bbd1d, type: 3}
+  - cardId: SQ
+    sprite: {fileID: 21300000, guid: 6c296bf448db43f4d8d3baa645d8cc2f, type: 3}
