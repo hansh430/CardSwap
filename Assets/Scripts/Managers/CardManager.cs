@@ -1,6 +1,8 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 using static CardData;
 
 public class CardManager : MonoBehaviour
@@ -14,10 +16,27 @@ public class CardManager : MonoBehaviour
         Instance = this;
     }
     public List<Card> SelectedCards => currentSelectedCards;
-    private void Start()
+    private IEnumerator Start()
     {
         string path = Path.Combine(Application.streamingAssetsPath, "card_data.json");
-        string json = File.ReadAllText(path);
+
+        string json = "";
+
+#if UNITY_ANDROID
+        UnityWebRequest request = UnityWebRequest.Get(path);
+        yield return request.SendWebRequest();
+
+        if (request.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError("Failed to load JSON: " + request.error);
+            yield break;
+        }
+
+        json = request.downloadHandler.text;
+#else
+    json = File.ReadAllText(path);
+#endif
+
         CardDataModal cardData = JsonUtility.FromJson<CardDataModal>(json);
 
         CardGroup defaultGroup = CardGroupManager.Instance.CreateGroup();

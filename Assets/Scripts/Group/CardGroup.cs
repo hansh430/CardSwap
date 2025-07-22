@@ -29,6 +29,8 @@ public class CardGroup : MonoBehaviour, IDropable
     public void OnDrop(Card card)
     {
         if (!cardList.Contains(card))
+        {
             AddCard(card);
+        }
     }
 }
